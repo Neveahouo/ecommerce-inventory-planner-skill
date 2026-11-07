@@ -1,0 +1,16 @@
+{
+  "skus": [
+    {"sku": "A-每日坚果750g", "total30": 3000, "total7": 800, "available": 1500, "in_transit": 0},
+    {"sku": "B-夏威夷果300g", "total30": 1000, "total7": 500, "available": 200, "in_transit": 300},
+    {"sku": "C-猪肉脯1kg", "total30": 2000, "total7": 300, "available": 5000}
+  ],
+  "regions": [
+    {"region": "华东", "available": 1000},
+    {"region": "华南", "available": 400}
+  ],
+  "links": [
+    {"link_id": "天猫主链接", "demand_units": 800, "combo_multiple": 1, "priority": 1, "prefer_region": "华东"},
+    {"link_id": "拼多多2件装", "demand_units": 600, "combo_multiple": 2, "priority": 2, "prefer_region": "华南"},
+    {"link_id": "小红书3件bundles", "demand_units": 300, "combo_multiple": 3, "priority": 3}
+  ]
+}
